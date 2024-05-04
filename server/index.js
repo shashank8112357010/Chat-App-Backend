@@ -18,7 +18,7 @@ import { decode } from './middlewares/jwt.js'
 const app = express();
 
 /** Get port from environment and store in Express. */
-const port = process.env.PORT || "3000";
+const port = process.env.PORT || 4200;
 app.set("port", port);
 
 app.use(logger("dev"));
